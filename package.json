@@ -1,6 +1,6 @@
 {
   "name": "festock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scaffold a full frontend stack with Vite, React Router v7, TanStack Query, Tailwind CSS 4, and shadcn/ui",
   "type": "module",
   "bin": {
