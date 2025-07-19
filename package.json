@@ -1,0 +1,40 @@
+{
+  "name": "festock",
+  "version": "1.0.0",
+  "description": "Scaffold a full frontend stack with Vite, React Router v7, TanStack Query, Tailwind CSS 4, and shadcn/ui",
+  "type": "module",
+  "bin": {
+    "festock": "./bin/index.js"
+  },
+  "scripts": {
+    "build": "rimraf bin && tsc && shx chmod +x bin/index.js"
+  },
+  "keywords": [
+    "vite",
+    "react",
+    "cli",
+    "frontend-stack",
+    "boilerplate",
+    "react-router",
+    "tanstack-query",
+    "tailwind",
+    "shadcn"
+  ],
+  "author": "booi.gg",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "@types/node": "^24.0.15",
+    "@types/prompts": "^2.4.9",
+    "execa": "^8.0.1",
+    "fs-extra": "^11.1.1",
+    "prompts": "^2.4.2",
+    "strip-json-comments": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "rimraf": "^6.0.1",
+    "shx": "^0.4.0",
+    "typescript": "^5.3.3"
+  }
+}
