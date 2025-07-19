@@ -23,6 +23,7 @@ npx festock@latest
 
 ## Folder Structure
 
+```text
 my-app/
 ├── public/
 │ └── react.svg
@@ -41,9 +42,9 @@ my-app/
 │ │ ├── about/
 │ │ │ └── index.tsx
 │ │ └── home/
-│ │ ├── addit.tsx
-│ │ ├── index.tsx
-│ │ └── loader.ts
+│ │      ├── addit.tsx
+│ │      ├── index.tsx
+│ │      └── loader.ts
 │ ├── App.css
 │ ├── App.tsx
 │ ├── index.css
@@ -63,3 +64,5 @@ my-app/
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
+
+```
