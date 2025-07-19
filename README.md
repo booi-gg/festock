@@ -20,3 +20,46 @@ You **don't need to install it globally**. Just run:
 ```bash
 npx festock@latest
 ```
+
+## Folder Structure
+
+my-app/
+├── public/
+│ └── react.svg
+├── src/
+│ ├── assets/
+│ │ └── react.svg
+│ ├── components/
+│ │ └── ui/
+│ │ ├── button.tsx
+│ │ ├── dialog.tsx
+│ │ ├── input.tsx
+│ │ └── label.tsx
+│ ├── lib/
+│ │ └── utils.ts
+│ ├── pages/
+│ │ ├── about/
+│ │ │ └── index.tsx
+│ │ └── home/
+│ │ ├── addit.tsx
+│ │ ├── index.tsx
+│ │ └── loader.ts
+│ ├── App.css
+│ ├── App.tsx
+│ ├── index.css
+│ ├── main.tsx
+│ └── routes.tsx
+├── .gitignore
+├── .prettierignore
+├── .prettierrc
+├── .pnpm-builds.json
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── README.md
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+└── vite.config.ts
