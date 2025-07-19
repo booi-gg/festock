@@ -25,6 +25,10 @@
     "LICENSE",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/booi-gg/festock"
+  },
   "author": "booi.gg",
   "license": "MIT",
   "packageManager": "pnpm@10.12.1",
