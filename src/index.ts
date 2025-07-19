@@ -15,7 +15,7 @@ import { updatePackageJson } from "./steps/updatePackageJson.js";
 import { writePnpmBuildsJson } from "./steps/writePnpmBuildsJson.js";
 
 // const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const projectName = process.argv[2] || "my-app";
+const projectName = process.argv[2] || "fe-stock-app";
 const targetDir = path.resolve(process.cwd(), projectName);
 
 if (existsSync(targetDir)) {
