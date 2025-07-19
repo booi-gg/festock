@@ -1,7 +1,3 @@
-{
-  "files": [
-    "bin/",
-    "LICENSE",
-    "README.md"
-  ]
-}
+src
+*.ts
+tsconfig.json

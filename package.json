@@ -20,6 +20,11 @@
     "tailwind",
     "shadcn"
   ],
+  "files": [
+    "bin",
+    "LICENSE",
+    "README.md"
+  ],
   "author": "booi.gg",
   "license": "MIT",
   "packageManager": "pnpm@10.12.1",
