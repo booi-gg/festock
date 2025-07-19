@@ -18,7 +18,7 @@
 You **don't need to install it globally**. Just run:
 
 ```bash
-npx festock@latest
+npx festock@latest fe-stock-app
 ```
 
 ## Folder Structure
