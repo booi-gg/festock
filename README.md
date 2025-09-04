@@ -21,6 +21,35 @@ You **don't need to install it globally**. Just run:
 npx festock@latest fe-stock-app
 ```
 
+## 🛠️ Local Development
+
+To test festock locally:
+
+1. **Clone and build**:
+   ```bash
+   git clone https://github.com/booi-gg/festock.git
+   cd festock
+   bun install  # or npm install
+   bun run build  # or npm run build
+   ```
+
+2. **Link globally**:
+   ```bash
+   npm link
+   ```
+
+3. **Test the CLI**:
+   ```bash
+   festock my-test-app
+   cd my-test-app
+   npm run dev  # or your preferred package manager
+   ```
+
+4. **Unlink when done**:
+   ```bash
+   npm unlink -g festock
+   ```
+
 ## Folder Structure
 
 ```text

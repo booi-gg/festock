@@ -9,6 +9,7 @@ export async function askPackageManager() {
       { title: "npm", value: "npm" },
       { title: "pnpm", value: "pnpm" },
       { title: "yarn", value: "yarn" },
+      { title: "bun", value: "bun" },
       { title: "Skip", value: null },
     ],
   });
